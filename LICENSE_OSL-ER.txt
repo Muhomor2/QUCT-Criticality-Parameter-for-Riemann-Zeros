@@ -1,0 +1,23 @@
+OSL-ER 1.0 — Open Science License with Ethical Restrictions
+
+Copyright (c) 2025 
+Author: Igor Chechelnitsky
+
+Permission is hereby granted to use, copy, modify, and distribute this work
+for scientific, educational, and research purposes, provided that:
+
+1. The work is not used for:
+   - military development,
+   - surveillance systems,
+   - harmful biological or chemical research,
+   - deceptive AI systems,
+   - any activity causing direct harm to humans.
+
+2. Derivative works must preserve this license.
+
+3. Commercial use is permitted only with explicit written permission 
+   from the Author.
+
+This license satisfies open-science reproducibility standards while imposing
+ethical constraints.
+
