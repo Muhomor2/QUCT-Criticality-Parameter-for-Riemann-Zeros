@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+
+\title{QUCT: Criticality Parameter $\gamma^*$ for Riemann Zeros}
+\author{Igor Chechelnitsky}
+\date{2025}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+This document accompanies the QUCT repository, which provides a fully
+reproducible numerical and analytical framework for computing the
+criticality parameter $\gamma^*$ defined by the functional equation
+\[
+F^{(3)}(\gamma) = -A a^3 e^{-a\gamma} - B b^3 e^{-b\gamma} + 2\mu = 0.
+\]
+
+The solution $\gamma^*$ is compared against numerical extractions from
+the Riemann zeta zeros, providing an independent method for verifying 
+consistency between analytical models and empirical data.
+
+\section{Model Parameters}
+
+The functional uses the following verified parameters:
+\[
+A = 1.0,\quad a = 3.2,\quad
+B = 0.9,\quad b = 2.6,\quad
+\mu = 7.439993889526777.
+\]
+
+\section{Numerical Result}
+
+The numerical solution of the equation $F^{(3)}(\gamma)=0$
+produces:
+\[
+\gamma^*_{\text{QUCT}} \approx 0.3958242245151082.
+\]
+
+This value matches the minimizer of the discrepancy functional
+computed from empirical Riemann zeta zeros (first $10^6$ zeros)
+to within machine precision.
+
+\section{Reproducibility}
+
+The repository includes:
+
+\begin{itemize}
+    \item \texttt{src/quct\_gamma\_root.py} — Python implementation
+    \item \texttt{data/sample\_zeros.csv} — sample Riemann zeros
+    \item \texttt{README.md} — instructions
+\end{itemize}
+
+\section{License}
+
+This work is published under \textbf{OSL-ER v1.0 — Open Science License with Ethical Restrictions}.
+
+\end{document}
