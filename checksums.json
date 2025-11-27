@@ -1,7 +1,31 @@
 {
-  "src/quct_gamma_root.py": "TO-BE-GENERATED",
-  "docs/quct_gamma_star.tex": "TO-BE-GENERATED",
-  "docs/quct_gamma_star.pdf": "OPTIONAL",
-  "README.md": "TO-BE-GENERATED",
-  "LICENSE_OSL-ER.txt": "USER-PROVIDED"
+  "title": "QUCT: Criticality Parameter gamma-star for Riemann Zeros",
+  "upload_type": "software",
+  "description": "Open-source reference implementation of QUCT (Qadmon Universal Criticality Theory) for extracting and validating the dimensionless criticality parameter gamma* from a variational stability functional F(γ). The package contains high-precision Python code for solving F'''(γ) = 0, obtaining gamma*_QUCT ≈ 0.3958242245, and a minimal LaTeX manuscript (docs/quct_gamma_star.tex) describing the mathematical framework and numerical protocol.",
+  "creators": [
+    {
+      "name": "Chechelnitsky, Igor",
+      "orcid": "0009-0007-4607-1946",
+      "affiliation": "Independent Researcher, Ashkelon, Israel"
+    }
+  ],
+  "access_right": "open",
+  "license": "other-open",
+  "keywords": [
+    "QUCT",
+    "Riemann zeta function",
+    "Random Matrix Theory",
+    "GUE",
+    "criticality parameter",
+    "spectral statistics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Muhomor2/QUCT-Criticality-Parameter-for-Riemann-Zeros",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    }
+  ],
+  "language": "eng",
+  "version": "1.0.0"
 }
